@@ -1,4 +1,6 @@
 local function tbl_eq(t1, t2)
+    if t1 == t2 then return true end
+
     local l1, l2 = 0, 0
 
     for k, v1 in pairs(t1) do
